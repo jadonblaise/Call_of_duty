@@ -1,0 +1,312 @@
+body {
+    background-color: rgba(155, 160, 159, 0.977);
+    background-image: url("https://images.unsplash.com/photo-1620231150904-a86b9802656a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-position-x: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* goes to the end */
+    align-items: center; 
+    border-bottom: 1px solid beige;   
+}
+
+.nav-item {
+    list-style: none;
+    /* removes bullet */
+    margin-right: 1rem;
+    /* spaces the items */
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    /* removes any underline or dec. */
+    padding: 10px;
+}
+
+.nav-item a:hover {
+    background-color: greenyellow;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    /* first child goes to the left end */
+    cursor: pointer;
+}
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 1rem;
+    background-color: beige;
+    padding: 0.5rem 1rem;
+    cursor:pointer
+}
+
+.btn:hover {
+    background-color: greenyellow;
+}
+
+.chapter {
+    color: greenyellow;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.story {
+    color: beige;
+    font-family: fantasy;
+    font-size: x-large;
+    text-align: center;
+}
+.story a {
+    color: beige;
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.imgsec {
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.imgitem {
+    background-image: url("https://images.unsplash.com/photo-1602901248692-06c8935adac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: top;
+    border: 1px solid gold;
+    margin-top: 2%;
+}
+.imgitem:hover{
+    background-position: bottom;
+}
+
+.imgitem2 {
+    background-image: url("https://images.unsplash.com/photo-1602518872490-2887dfdb5535?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    border: 1px solid goldenrod;
+    margin-top: 2%;
+}
+.imgitem2:hover {
+    background-position: bottom;
+}
+
+.join {
+    display: flex;
+    justify-content:center;
+    font-size: xx-large;
+    font-style: initial;
+    color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text {
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imgitem a {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.front {
+    display: flex;
+    justify-content:center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+}
+.text1 {
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imgitem2 a {
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.accept-links {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    background-color: black;
+    text-align: center;
+    /* bring text to center */
+    color: beige;
+    border: 1px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contsec {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.content1 img{
+    width: 100%;
+}
+.content-text1{
+    width: 100%;
+    position: relative;
+    margin-top: -21%;
+    border-top: 1px 1rem;
+    background-color: black;
+}
+.content-text1 h2 {
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.content-text1 h2:hover {
+    background-color: cornsilk;
+}
+
+.content2 img{
+    width: 100%;
+}
+.content-text2{
+    width: 100%;
+    position: relative;
+    margin-top: -29%;
+    border-top: 1px 1rem;
+    background-color: rgb(117, 108, 108);
+}
+.content-text2 h2 {
+    text-align: center;
+    color: beige;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.content-text2 h2:hover {
+    background-color: yellowgreen;
+}
+
+.content3 img{
+    width: 100%;
+}
+.content-text3{
+    width: 100%;
+    position: relative;
+    margin-top: -25%;
+    border-top: 1px 1rem;
+    background-color: black;
+}
+.content-text3 h2 {
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.content-text3 h2:hover {
+    background-color: cornsilk;
+}
+
+.content4 img{
+    width: 100%;
+}
+.content-text4{
+    width: 100%;
+    position: relative;
+    margin-top: -25%;
+    border-top: 1px 1rem;
+    background-color: rgb(117, 108, 108);
+}
+.content-text4 h2 {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.content-text4 h2:hover {
+    background-color: yellowgreen;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+}
+.socials a:hover i {
+    color: aquamarine;
+}
+
+.footer-bottom {
+    background: black;
+    width: 100vw;
+    padding: 200px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
