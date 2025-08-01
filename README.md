@@ -2,7 +2,7 @@
 <a href="https://ibb.co/qCKrc1h" target="_blank" rel="noopener">
   <img src="https://i.ibb.co/gdNRfgQ/COD-readme.png"
        alt="COD readme"
-       style="width:100%; height:auto; border:0;">
+       style="width:100%; border:0;">
 </a>
 A Call of Duty-themed static landing page built using HTML5 and CSS3, featuring:
 
