@@ -1,9 +1,5 @@
 <h1>🎮 Call of Duty Landing Page</h1>
-<a href="https://ibb.co/qCKrc1h" target="_blank" rel="noopener">
-  <img src="https://i.ibb.co/gdNRfgQ/COD-readme.png"
-       alt="COD readme"
-       style="width:100%; border:0;">
-</a>
+![Front page](Call_of_Duty_logo_ghosts.png)
 A Call of Duty-themed static landing page built using HTML5 and CSS3, featuring:
 
 Responsive navigation bar with logo & purchase button
