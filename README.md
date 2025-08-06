@@ -1,5 +1,8 @@
 <h1>🎮 Call of Duty Landing Page</h1>
-![Front page](Call_of_Duty_logo_ghosts.png)
+<p align="center">
+  <img src="Call_of_Duty_logo_ghosts.png" alt="Call of Duty Logo">
+</p>
+
 A Call of Duty-themed static landing page built using HTML5 and CSS3, featuring:
 
 Responsive navigation bar with logo & purchase button
